@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header-image">
+        <img src="assets/bg-desktop-dark.jpg" alt="bg-desktop-dark">
+    </div>
+
+    <!--start of todo list-->
+    <div class="todo-container">
+        <div class="todo-heading">
+            <h1>TODO</h1>
+            <img src="assets/icon-moon.svg" alt="moon">
+        </div>
+
+        <input type="text" placeholder="create new Todo" class="text-input" id="input"/>
+        <span class="placeholder"></span>
+
+        <div class="todo-list">
+            <div id="todos"></div>
+            
+            <div class="bottom-menu">
+                <div class="status">
+                    <p class="count"><span></span> items left</p>
+                    <ul class="status-list">
+                        <li>All</li>
+                        <li>Active</li>
+                        <li>Completed</li>
+                    </ul>
+                    <p class="clear">Clear Completed</p>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
